@@ -1,0 +1,82 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-image: url("imagenes/fondo.jpg");
+    background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+    z-index: -3;
+}
+
+.topnav {
+    background-color: #333;
+    width:90%;
+    margin:auto;
+    margin-bottom: 20px;
+    position: fixed;
+    top:0;
+    left:5%;
+    overflow: hidden;
+    
+    
+  }
+
+  
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 100px;
+    margin: auto;
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight:bold;
+  }
+
+  .topnav a:hover{
+    background-color: rgb(45, 163, 15);
+    color:rgb(17, 17, 17);
+  }
+
+.main{
+    background:#fff;
+    width:90%;
+    
+    margin:20px auto;
+}
+
+
+
+
+
+.articulo_img{
+    background:#ccc;
+    width:90%;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.articulo_img img{
+    width: 100% ;
+    height:auto;
+    margin: auto;
+    display:block;
+}
+
+footer{
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding:20px 0px;
+  text-align: center;
+}
