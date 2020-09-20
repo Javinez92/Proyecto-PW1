@@ -54,7 +54,7 @@ body{
 
 .main{
     background:#fff;
-    width:68%;
+    width:66%;
     float:left;
     margin-top: 6px;
     margin-left: 5px;
@@ -64,10 +64,11 @@ body{
 
 #sidebar{
   float: right;
-  width: 28%;
+  width: 30%;
   border: 1px solid;
   height:auto;
   margin-top: 6px;
+  margin-right: 4px;
   overflow: hidden;
 }
 
@@ -76,7 +77,7 @@ body{
   width: 100%;
   border: 1px solid #ccc;
   height: auto;
-  margin-bottom: 20px;
+  
 }
 #buscador input[type="text"]{
   border: 1px solid #ccc;
@@ -110,6 +111,13 @@ body{
   width:100%;
   display: inline-block;
   text-decoration: none;
+  border-bottom: 1px solid rgb(54, 54, 54);
+  padding: 10px 5px;
+  color: #0c68d1;
+}
+
+.enlace-sidebar:hover{
+  background: rgb(196, 196, 196);
 }
 
 .slidershow{
