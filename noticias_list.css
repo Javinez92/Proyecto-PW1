@@ -1,0 +1,73 @@
+body{
+    margin-top:40px;
+    background-color: rgb(31, 31, 31);
+}
+.nav-item{
+    padding:0px 30px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+main{
+    margin-top: 80px ;
+  }
+  .list-unstyled{
+    padding:8px;
+    background: rgb(168, 168, 168);
+    width:75%; 
+    margin-bottom: 250px; 
+  }
+
+  .card-img{
+    margin: auto;
+    padding: 15px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .sidebar>h3{
+    color: white;
+
+  }
+  .sidebar .card-img-overlay{
+    background: linear-gradient(rgba(255,0,0,0), rgb(51, 50, 50));
+  }
+ .sidebar .card-title{
+   margin: auto;
+   color: white;
+ }
+ .sidebar .card-text{
+  margin: auto;
+  color: white;
+}
+
+ 
+  /*
+  .media{
+      
+      margin-bottom: 5px;
+      background: white;
+      border-radius: 5px;
+      
+  }
+
+  .media>img{
+    padding:0px;
+    margin: 0px,0px;
+  }
+  .media-body{
+      float: left;
+      color: blue;
+  }
+
+  
+
+  
+ */
+
+ footer {
+    padding:15px;
+    background-color: #111111;
+  }
+  
